@@ -15,6 +15,9 @@ let embed = new Discord.RichEmbed()
 .setColor("#009482");
    msg.channel.send(embed);
  }
+  if (msg.content === 'pingg') {
+   msg.channel.send("pong");
+ }
 client.on('guildMemberAdd', member => {
 var role1 = msg.guild.roles.find('name', 'ᅠ ᅠ ᅠ 🔻Ранг🔻');
 var role2 = msg.guild.roles.find('name', 'ᅠ ᅠ ᅠ 🔻Игровые роли🔻');
