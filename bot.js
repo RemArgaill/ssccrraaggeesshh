@@ -6,7 +6,7 @@ client.on('ready', () => {
  });
 
 client.on('message', msg => {
- if (msg.content === 'ping') {
+ if (msg.content === 'pingg') {
    let scrag = client.user.displayAvatarURL;
 let embed = new Discord.RichEmbed()
 .setTitle("Пинг!")
