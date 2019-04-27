@@ -24,4 +24,4 @@ member.addRole(role1,role2,role3,role4);
    });
  });
 
-client.login('NTcxMjE0MjU2NTQwODc2ODIw.XMMBWg.8TOHM-q8w_UXoK-3QHZp2yAcNbU');
+client.login(process.env.BOT_TOKEN);
