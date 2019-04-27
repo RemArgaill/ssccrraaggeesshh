@@ -20,7 +20,10 @@ var role1 = msg.guild.roles.find('name', 'ᅠ ᅠ ᅠ 🔻Ранг🔻');
 var role2 = msg.guild.roles.find('name', 'ᅠ ᅠ ᅠ 🔻Игровые роли🔻');
 var role3 = msg.guild.roles.find('name', 'ᅠ ᅠ ᅠ 🔻Прочее🔻');
 var role4 = msg.guild.roles.find('name', '☀️Пользователь☀️');
-member.addRole(role1,role2,role3,role4);
+member.addRole(role1);
+member.addRole(role2);
+member.addRole(role3);
+member.addRole(role4);
    });
  });
 
